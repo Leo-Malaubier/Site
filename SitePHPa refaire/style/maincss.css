@@ -1,0 +1,77 @@
+/*****  Structure du site ********/
+
+html {
+  background-color: gray;
+   max-width: 100%;
+}
+
+body {
+  background-color: white;
+  margin: auto;
+  padding: 2%;
+  max-width: 80em;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+
+
+.menu{
+  text-align: center;
+  list-style-type: none; /*enlève les point*/
+	padding: 0; /*aucune marge*/
+	display: flex; /*permet d'alligné les éléménet*/
+	justify-content: space-around; /*fait des espace entre les éléments*/
+  padding: .3em 1em;
+  border-radius: 30px;
+  color=white;
+}
+
+.menu a:hover{
+  color: orange;
+}
+.menu a{
+  text-decoration: none;
+  color:white;
+}
+.navigation ul{
+  list-style-type: none; /*enlève les point*/
+	padding: 0; /*aucune marge*/
+	display: flex; /*permet d'alligné les éléménet*/
+	justify-content: start; /*fait des espace entre les éléments*/
+  width: 50%;
+  color:black;
+}
+
+.navigation ul a{
+  padding: .3em 1em;
+  background-color: #fcc9b9;
+}
+.navigation a:hover{
+  padding: .3em 1em;
+  background-color: #edbbbd;
+}
+
+.liste{
+  list-style-type: none; /*enlève les point*/
+
+	justify-content: start; /*fait des espace entre les éléments*/
+
+  color:black;
+
+}
+.liste a{
+  text-decoration: none;
+  padding: .3em 1em;
+  background-color: #fcc9b9;
+}
+.liste a:hover{
+  padding: .3em 1em;
+  background-color: #edbbbd;
+}
